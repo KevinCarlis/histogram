@@ -1,0 +1,62 @@
+PHASE 1 - Open a file for reading
+Prompt the user: "Please enter a filename\n";
+
+Open that filename in your code.
+
+PHASE 2 - HISTOGRAM the file
+
+Count the number of times each letter appears in the file.
+
+Read the file ONE CHARACTER at a time (use .get()). Read all characters until
+you hit the EOF of the file. (Don't read the EOF.)
+
+NOTE: DISCARD all extended ASCII characters (i.e. values below 0 or above 127).
+
+For example, if this is the contents of the file:
+Aaaa!! Bye...
+
+Your code would record that it saw one capital A, three lowercase a's, two
+exclamation marks, one space, one B, one y, one e, and three periods.
+
+PHASE 3 - Output the histogram
+
+You will then output all of the characters *that appeared* in ASCII order. Do
+NOT output any characters that did not appear in the file (for example, don't
+output a 'c' since it was not in that file).
+
+Format:
+ASCII character : count
+
+Sample output:
+ : 1
+!: 2
+.: 3
+A: 1
+B: 1
+a: 3
+e: 1
+y: 1
+
+
+PHASE 4 - Heapify it
+
+First, prompt the user: "Do you wish to sort by count?\n"
+
+If they type 'y' or 'Y' (again, just use cin.get()) then you must use heapsort
+to sort the characters by their count, and secondly by ASCII code, and then
+output the table again.
+
+Sample output:
+.: 3
+a: 3
+!: 2
+ : 1
+A: 1
+B: 1
+e: 1
+y: 1
+
+NOTE: Your code should handle both the base 128 characters in the ASCII
+character set as well as the 256 different characters in the extended ASCII
+set (by discarding extended ASCII characters).
+You should use an UNSIGNED CHAR, not a signed char, for this reason.

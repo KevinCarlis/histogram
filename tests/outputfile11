@@ -1,0 +1,48 @@
+Please enter a filename
+
+: 17
+(: 2
+): 2
+[: 2
+]: 2
+a: 28
+b: 7
+c: 3
+d: 3
+e: 16
+h: 4
+k: 4
+l: 1
+m: 2
+o: 2
+p: 4
+r: 5
+s: 10
+t: 1
+u: 3
+w: 3
+y: 1
+Do you wish to sort by count?
+a: 28
+
+: 17
+e: 16
+s: 10
+b: 7
+r: 5
+h: 4
+k: 4
+p: 4
+c: 3
+d: 3
+u: 3
+w: 3
+(: 2
+): 2
+[: 2
+]: 2
+m: 2
+o: 2
+l: 1
+t: 1
+y: 1
